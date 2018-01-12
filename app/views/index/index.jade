@@ -1,0 +1,71 @@
+extends ../index
+
+block content
+  // carousel
+  .row-2
+    .container_12
+      .grid_12
+        .flexslider
+          ul.slides
+            li
+              img(src='images/slider/slide-1.png', alt='')
+              .flex-caption
+                .flex-bg
+                  .flex-border
+                    .slide-text-1.ident-bot-1 Appointment
+                    .slide-text-2
+                      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, diam nonuibh.
+                      a(href='#') Click Here
+                    .signup-form-ctnr
+                      form#signup-form.home-form(action='#', method='post')
+                        fieldset
+                          .field
+                            input.itext.smart_input(type='text', value='Your Name', name='name', onblur="this.value=!this.value?'Your Name :':this.value;", onclick="this.value='';")
+                          .field.email
+                            input.itext.smart_input(type='text', value='Email', name='email', onblur="this.value=!this.value?'Email :':this.value;", onclick="this.value='';")
+                          .field.phone
+                            input.itext.smart_input(type='text', value='Phone', name='phone', onblur="this.value=!this.value?'Phone :':this.value;", onclick="this.value='';")
+                        input.button-green.home-form-btn(type='submit', value='SIGN UP NOW FOR FREE')
+                        .no-engagement  No commitment. No credit card required to sign up.
+            li
+              img(src='images/slider/slide-2.png', alt='')
+              .flex-caption
+                .flex-bg
+                  .flex-border-1
+                    .slide-text-1.ident-bot-1 Secrets of happy family life!
+                    .slide-text-2
+                      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, diam nonuibh.
+                      a.button-4(href='#') Click Here
+            li
+              img(src='images/slider/slide-3.png', alt='')
+              .flex-caption
+                .flex-bg
+                  .flex-border
+                    .slide-text-1.ident-bot-1 Appointment
+                    .slide-text-2
+                      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, diam nonuibh.
+                      a(href='#') Click Here
+                    .signup-form-ctnr
+                      form#signup-form.home-form(action='#', method='post')
+                        fieldset
+                          .field
+                            input.itext.smart_input(type='text', value='Your Name', name='name', onblur="this.value=!this.value?'Your Name :':this.value;", onclick="this.value='';")
+                          .field.email
+                            input.itext.smart_input(type='text', value='Email', name='email', onblur="this.value=!this.value?'Email :':this.value;", onclick="this.value='';")
+                          .field.phone
+                            input.itext.smart_input(type='text', value='Phone', name='phone', onblur="this.value=!this.value?'Phone :':this.value;", onclick="this.value='';")
+                        input.button-green.home-form-btn(type='submit', value='SIGN UP NOW FOR FREE')
+                        .no-engagement  No commitment. No credit card required to sign up.
+            li
+              img(src='images/slider/slide-4.png', alt='')
+              .flex-caption
+                .flex-bg
+                  .flex-border-1
+                    .slide-text-1.ident-bot-1 Secrets of happy family life!
+                    .slide-text-2
+                      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, diam nonuibh.
+                      a.button-4(href='#') Click Here
+      .clear
+
+
+
