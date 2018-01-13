@@ -9,11 +9,11 @@ block main
           .grid_12
             .logo.fleft
               h1
-                a(href='index.html') Gro-spa - Responsive Creative Theme
-              .slogan A better choice!
+                a(href='/') 荣知通
+              .slogan 广州荣知通信息科技有限公司
             .call
               img(src='images/icons/icon-phone.png', alt='')
-              span Call Us: 111-234-3421
+              span Call CN: 020-31147920
             .clear
           .clear
       .row-3
@@ -23,66 +23,64 @@ block main
             nav#main-nav-menu
               ul.sf-menu
                 li.active
-                  a(href='/') 首页
+                  a(href='/') 网站首页
                 li
-                  a(href='about.html') About
+                  a(href='about.html') 新闻动态
                   ul
                     li
-                      a(href='about.html') About
+                      a(href='about.html') 公司新闻
                     li
-                      a(href='services.html') Services
+                      a(href='services.html') 行业新闻
                     li
-                      a(href='features.html') Features
-                    li
-                      a(href='product-price.html') Product Price
-                    li
-                      a(href='blog.html') Blog
-                    li
-                      a(href='blog-single.html') Blog Details
-                    li
-                      a(href='portfolio3.html') Portfolio
-                      ul
-                        li
-                          a(href='portfolio2.html') Two Column
-                        li
-                          a(href='portfolio3.html') Three Column
-                        li
-                          a(href='portfolio4.html') Four Column
+                      a(href='features.html') 活动促销
                 li
-                  a(href='elements.html') Elements
+                  a(href='elements.html') 产品中心
                   ul
                     li
-                      a(href='elements.html') Elements
+                      a(href='elements.html') 云视讯系列
                     li
-                      a(href='price.html') Price
+                      a(href='price.html') 音视记录仪
                     li
-                      a(href='price-list.html') Price list
+                      a(href='price-list.html') MAXHE+电视
                     li
-                      a(href='headings.html') Headings
+                      a(href='price-list.html') 专用工具
                     li
-                      a(href='column.html') Columns Layout
+                      a(href='price-list.html') 智能硬件
                 li
-                  a(href='blog.html') Blog
+                  a(href='blog.html') 服务项目
                   ul
                     li
-                      a(href='blog.html') Blog
+                      a(href='blog.html') 会议室系统集成
                     li
-                      a(href='blog-single.html') Blog Details
+                      a(href='blog-single.html') 远程会议室
+                    li
+                      a(href='blog-single.html') 音视频产品销售
+                    li
+                      a(href='blog-single.html') 会议室运维
                 li
-                  a(href='portfolio3.html') Portfolio
+                  a(href='portfolio3.html') 解决方案
                   ul
                     li
-                      a(href='portfolio2.html') Two Column
+                      a(href='portfolio2.html') One
                     li
                       a(href='portfolio3.html') Three Column
                     li
                       a(href='portfolio4.html') Four Column
                 li
-                  a(href='contact.html') Contact
+                  a(href='contact.html') 关于我们
+                  ul
+                    li
+                      a() 公司介绍
+                    li
+                      a() 合作伙伴
+                    li
+                      a(href='blog-single.html') 加入我们
+                    li
+                      a(href='blog-single.html') 联系我们
             // end menu
             a.spa-packages.button-yellow(href='#')
               img(alt='', src='images/icons/offer-icon.png')
-              | Spa Packages
+              | 加入收藏
             select#responsive-main-nav-menu(onchange='javascript:window.location.replace(this.value);')
             .clear
           .clear
@@ -97,32 +95,34 @@ block main
         .container_12
           .wrapper
             // Text Widget & SOCIABLE
-            .grid_4
+            .grid_8
               .block-ident-4
                 // Text Widget
                 .ident-bot-1
-                  h5 Text Widget
+                  h5 公司联系方式
                   img.fleft.ident-right-1(src='images/logo-footer.png', alt='')
                   p
-                    | Lorem ipsum dolor sit amet, consectetur adipisicing laoreet elit, sed do eiusmod tempor incididunt.
+                    | 广东省广州市番禺区石壁街汉溪大道西283号奥园越时代广场东塔328室
                   dl
                     dd
-                      span +1 100 123 6580
-                      | Freephone:
+                      | 杨杰
                     dd
-                      span +1 200 123 6035
-                      | Telephone:
+                      | 手机:
+                      span +188 9843 8855
                     dd
-                      span +1 300 123 9898
-                      | FAX:
+                      | 电话:
+                      span +020-31147920
                     dd
                       | E-mail:
-                      a.link-1(href='#') mail@owltemplates.com
+                      a.link-1(href='#') yangjie@rztit.com
                 .clear
                 .footer-separator
-                // SOCIABLE
+
+            .grid_4
+              // CONNECT_WITH_US
+              .wrapper
                 .sociable
-                  h5 Connect with us
+                  h5 关联我们
                   ul.social
                     li
                       a(href='#')
@@ -144,44 +144,29 @@ block main
                       a(href='#')
                         img.img-1(alt='', src='images/icons/icon5.png')
                         img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
-            // Twitter Feed
-            .grid_4.tweet
-              .block-ident-4
-                h5 Twitter Feed
-                .tweets
-                  p  Loading Tweets...
-                  ul#tweet-list
-            // FLCKR PHOTOS & Tag Cloud
-            .grid_4
-              // FLCKR PHOTOS
-              .wrapper
-                .flickr
-                  h5 Flickr Photos
-                  div
-                    ul#fbox
-                      li.empty ��
+
               .clear
               .footer-separator
               // Tag Cloud
               .wrapper.tags
-                h5 Tag Cloud
-                a(href='#') Beauty
-                a(href='#') Spa
-                a(href='#') Relax
-                a(href='#') Refresh
-                a(href='#') Clean
-                a(href='#') Glow
-                a(href='#') Massage
-                a(href='#') Polish
-                a(href='#') Indulgence
-                a(href='#') Grow
+                h5 专业服务
+                a(href='#') 视频会议
+                a(href='#') 专业音响
+                a(href='#') 舞台灯光
+                a(href='#') 集中控制
+                a(href='#') 信息发布
+                a(href='#') 无纸化会议
+                a(href='#') BOEGAM
+                a(href='#') 多媒体会议
+                a(href='#') MZXHUB
+                a(href='#') 小鱼易连
       .footer-2
         .container_12
           .wrapper
             .grid_12
               .policy
-                | © Copyright © 2013.Company name All rights reserved.
-                a(target='_blank', href='http//www.zjf88.com/') 网页模板
+                | © 2016 Rztlt.com All rights reserved.
+                a(target='_blank', href='http//www.rztit.com/') 广州荣知通IT
 block script
   script(src='js/custom.js')
   div(style='display:none')

@@ -11,7 +11,7 @@ ul.tweet_list li a:link, ul.tweet_list li a:visited { color: #eee; }
 
 a:hover, .archive a:hover, .text-color-red, .list-style-1 li a:hover, .list-style li a:hover, .slide-text-2 a, .breadcrumbs a:hover, .list-1 li a:hover, .list-rate li a:hover, .link-name, .link-1:hover, .post-meta a, .post-holder .entry-title a:hover, .categories ul li a:hover { color: #51A351; }
 
-footer p, footer dl, footer a, footer .tweets ul li, footer .link-1 { color: #749468; }
+footer p, footer dl, footer a, footer .tweets ul li, footer .link-1 { color: white; }
 
 
 /*=========================================================================
