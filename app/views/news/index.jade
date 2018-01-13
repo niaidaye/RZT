@@ -1,0 +1,92 @@
+extends ../index
+
+block content
+  // carousel
+  section#content
+    .container_12
+      .grid_12
+        .breadcrumbs
+          p
+            span.bread-home
+              a(href='/') Home
+            | 新闻动态
+      // SITE CONTENTS
+      block content_1
+      // right CONTENTS
+      aside.grid_4.fright
+        // SIDEBAR
+        .sidebar-blog
+          // SOCIABLE
+          .sociable.sidebar-social
+            h5 关注我们
+            ul.social
+              li
+                a(href='#')
+                  img.img-1(alt='', src='images/icons/icon1.png')
+                  img.img-2(alt='', title='Facebook', src='images/icons/icon1-hover.png')
+              li
+                a(href='#')
+                  img.img-1(alt='', src='images/icons/icon2.png')
+                  img.img-2(alt='', title='Flickr', src='images/icons/icon2-hover.png')
+              li
+                a(href='#')
+                  img.img-1(alt='', src='images/icons/icon3.png')
+                  img.img-2(alt='', title='Twitter', src='images/icons/icon3-hover.png')
+              li
+                a(href='#')
+                  img.img-1(alt='', src='images/icons/icon4.png')
+                  img.img-2(alt='', title='RSS', src='images/icons/icon4-hover.png')
+              li
+                a(href='#')
+                  img.img-1(alt='', src='images/icons/icon5.png')
+                  img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
+          // CATEGORIES
+          .categories
+            h5 热售
+            ul
+              li
+                a(href='#') Gel Polish
+              li
+                a(href='#') Stress-Free
+              li
+                a(href='#') Graft-a-Lash
+              li
+                a(href='#') Web Design
+          // RECENT POST
+          .recent-post
+            h5 动态
+            .recent-post-block
+              a.img-border-bg.fleft(href='#')
+                img.img-border(src='images/rc-img1.jpg', alt='', title='')
+              a.link-name(href='#') Sed ut perspiciatis unde omnis iste natus
+              span.smalldate April 27, 2012
+            .recent-post-block
+              a.img-border-bg.fleft(href='#')
+                img.img-border(src='images/rc-img2.jpg', alt='', title='')
+              a.link-name(href='#') Lorem ipsum dolor sit amet, consectetur
+              span.smalldate April 27, 2012
+            .recent-post-block
+              a.img-border-bg.fleft(href='#')
+                img.img-border(src='images/rc-img3.jpg', alt='', title='')
+              a.link-name(href='#') fringilla hendrerit lectus nec vehicula
+              span.smalldate April 27, 2012
+          // SIDEBAR PARAGRAPH
+          .side-paragraph
+            h5 Side Paragraph
+            div
+              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_1]', href='images/image-blank.png')
+                img.img-border(src='images/rc-img4.jpg', alt='', title='')
+              p.ident-bot-0
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+          // OUR SPONSORS
+          .our-sponsors
+            h5 Our Sponsors
+            a.alpha(href='#')
+              img(src='images/125.gif', alt='')
+            a.omega(href='#')
+              img(src='images/125.gif', alt='')
+            a.alpha(href='#')
+              img(src='images/125.gif', alt='')
+            a.omega(href='#')
+              img(src='images/125.gif', alt='')
+      .clear

@@ -46,7 +46,7 @@
 /* ------------- Portfolio 2 column  ---------------- */
 .portfolio-2column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
 
-.portfolio-2column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+.portfolio-2column li { float: left; margin-left: 5px; margin-right: 5px; margin-top:20px; overflow:hidden; position:relative; }
 
 .portfolio-2column li { width: 460px; }
 
@@ -59,7 +59,7 @@
 /* ------------- Portfolio 3 column  ---------------- */
 .portfolio-3column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
 
-.portfolio-3column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+.portfolio-3column li { float: left; margin-left: 5px; margin-right: 5px; margin-top:20px; overflow:hidden; position:relative; }
 
 .portfolio-3column li { width: 300px; }
 
@@ -72,7 +72,7 @@
 /* ------------- Portfolio 4 column  ---------------- */
 .portfolio-4column { position: relative; width: 960px; margin: 0 auto; padding: 0; }
 
-.portfolio-4column li { float: left; margin-left: 10px; margin-right: 10px; margin-top:20px; overflow:hidden; position:relative; }
+.portfolio-4column li { float: left; margin-left: 5px; margin-right: 5px; margin-top:20px; overflow:hidden; position:relative; }
 
 .portfolio-4column li { width: 220px; }
 
