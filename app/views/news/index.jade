@@ -14,9 +14,9 @@ block content
       block content_1
       // right CONTENTS
       aside.grid_4.fright
-        // SIDEBAR
+        // 新闻组的右侧导航
         .sidebar-blog
-          // SOCIABLE
+          // 关注我们
           .sociable.sidebar-social
             h5 关注我们
             ul.social
@@ -40,7 +40,7 @@ block content
                 a(href='#')
                   img.img-1(alt='', src='images/icons/icon5.png')
                   img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
-          // CATEGORIES
+          // 热售
           .categories
             h5 热售
             ul
@@ -52,41 +52,49 @@ block content
                 a(href='#') Graft-a-Lash
               li
                 a(href='#') Web Design
-          // RECENT POST
+          // 动态
           .recent-post
-            h5 动态
+            h5 公司动态
             .recent-post-block
-              a.img-border-bg.fleft(href='#')
-                img.img-border(src='images/rc-img1.jpg', alt='', title='')
-              a.link-name(href='#') Sed ut perspiciatis unde omnis iste natus
-              span.smalldate April 27, 2012
+              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_5]', href='images/activity/2017/EndSprint/17101.jpg')
+                img.img-border(src='images/thumbnail/EndSprint.png', alt='', title='')
+              a.link-name(href='#') 2017年市场部年底冲刺宣誓大会
+              span.smalldate 10月, 2017
             .recent-post-block
-              a.img-border-bg.fleft(href='#')
-                img.img-border(src='images/rc-img2.jpg', alt='', title='')
-              a.link-name(href='#') Lorem ipsum dolor sit amet, consectetur
-              span.smalldate April 27, 2012
+              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_2]', href='images/activity/2017/NewSite/17106.png')
+                img.img-border(src='images/thumbnail/NewSite.png', alt='', title='')
+              a.link-name(href='#') 随着荣知通业务发展扩大,原先的办公室已经不能满足荣知通发展的需求,荣知通搬迁到...
+              span.smalldate 06月, 2017
             .recent-post-block
-              a.img-border-bg.fleft(href='#')
-                img.img-border(src='images/rc-img3.jpg', alt='', title='')
-              a.link-name(href='#') fringilla hendrerit lectus nec vehicula
-              span.smalldate April 27, 2012
-          // SIDEBAR PARAGRAPH
+              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_3]', href='images/activity/2016/IOT·Cloud Computing/exhibition5.jpg')
+                img.img-border(src='images/thumbnail/exhibition5.png', alt='', title='')
+              a.link-name(href='#') 2016届中国（惠州）物联网·云计算技术应用博览会参展实况
+              span.smalldate 11月1日~3日, 2016
+
+          // 公司的简单介绍
           .side-paragraph
-            h5 Side Paragraph
+            h5 公司简介
             div
-              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_1]', href='images/image-blank.png')
-                img.img-border(src='images/rc-img4.jpg', alt='', title='')
+              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_4]', href='images/activity/company/logo_max.png')
+                img.img-border(src='images/logo_mi.png', alt='', title='')
               p.ident-bot-0
-                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
-          // OUR SPONSORS
+                | 广州荣知通信息科技有限公司成立于2016年, 是一家致力于工业智能化领域产品研发、生产、销售和售后服务为一体的高科技企业。
+              p.ident-bot-0
+                | 荣知通由来自国内外知名机电设备和IT科技公司包括微软，网易的管理者和研发核心成员共同创建。成立之初便获得泊水等投资机构和个人的风险投资。核心研发团队在云计算，视频会议，视频监控以及智能设备方面具有丰富的开发经验。
+          // 业内新闻
           .our-sponsors
-            h5 Our Sponsors
-            a.alpha(href='#')
-              img(src='images/125.gif', alt='')
-            a.omega(href='#')
-              img(src='images/125.gif', alt='')
-            a.alpha(href='#')
-              img(src='images/125.gif', alt='')
-            a.omega(href='#')
-              img(src='images/125.gif', alt='')
+            h5 行内新闻
+            #accordion
+              a “司法慧眼”
+              p
+                | a
+              a “五剑齐发 势不可挡”
+              p
+                | q
+              a “五剑齐发”
+              p
+                | q
+              a “势不可挡”
+              p
+                | q
       .clear

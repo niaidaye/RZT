@@ -60,3 +60,27 @@ router.get('/contact', (req, res, next) => {
     pretty: true,
   });
 });
+
+// about
+router.get('/about', (req, res, next) => {
+  res.render('about/index.jade', {
+    title: 'Node-Blog Contact',
+    pretty: true,
+  });
+});
+
+// abour>company
+router.get('/about', (req, res, next) => {
+  res.render('about/profile/CProfile.jade', {
+    title: 'Node-Blog Contact',
+    pretty: true,
+  });
+});
+
+// about>friend
+router.get('/friend', (req, res, next) => {
+  res.render('about/friend/friend.jade', {
+    title: 'Node-Blog Contact',
+    pretty: true,
+  });
+});

@@ -1254,3 +1254,9 @@ dl strong {
     margin-right: 30px;
   }
 }
+/*
+new_height
+ */
+.height_new {
+  height: 1460px;
+}
