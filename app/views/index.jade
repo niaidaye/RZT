@@ -48,9 +48,9 @@ block main
                         a(href='/CompanyActivity') 公司动态
                       li
                         a(href='/TradeNews') 行业新闻
-                if pageName === ''
+                if pageName === '/product'
                   li.active
-                    a(href='elements.html') 产品中心
+                    a(href='/product') 产品中心
                     ul
                       li
                         a(href='elements.html') 云视讯系列
@@ -60,7 +60,7 @@ block main
                         a(href='price-list.html') 专用工具
                 else
                   li
-                    a(href='elements.html') 产品中心
+                    a(href='/product') 产品中心
                     ul
                       li
                         a(href='elements.html') 云视讯系列
@@ -68,9 +68,9 @@ block main
                         a(href='price.html') 智能硬件
                       li
                         a(href='price-list.html') 专用工具
-                if pageName === ''
+                if pageName === '/serve'
                   li.active
-                    a(href='blog.html') 服务项目
+                    a(href='/serve') 服务项目
                     ul
                       li
                         a(href='blog.html') 会议室系统集成
@@ -82,7 +82,7 @@ block main
                         a(href='blog-single.html') 云服务系统集成
                 else
                   li
-                    a(href='blog.html') 服务项目
+                    a(href='/serve') 服务项目
                     ul
                       li
                         a(href='blog.html') 会议室系统集成
@@ -109,11 +109,13 @@ block main
                     a(href='/about') 关于我们
                     ul
                       li
-                        a() 公司介绍
+                        a(href='/company') 公司介绍
                       li
-                        a() 合作伙伴
+                        a(href='/friend') 合作伙伴
                       li
-                        a(href='blog-single.html') 加入我们
+                        a(href='') 加入我们
+                      li
+                        a(href='') 联系我们
             // end menu
             a.spa-packages.button-yellow(href='#')
               img(alt='', src='images/icons/offer-icon.png')

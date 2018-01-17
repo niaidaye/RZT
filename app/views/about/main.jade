@@ -1,22 +1,38 @@
-extends ../index.jade
+extends index.jade
 
-block friend
+block main5
+  .grid_10.ident-bot-2
+    .block-ident-3
+      h2 公司简介
+      .grid_4.alpha.block-ident-2
+        .img-border-bg
+          img.img-border.fleft(src='images/pic1.jpg', alt='')
+      p.ident-bot-2
+        strong
+          | 广州荣知通信息科技有限公司成立于2016年, 是一家致力于工业智能化领域产品研发、生产、销售和售后服务为一体的高科技企业。
+      p
+        | 公司集中了一批国内外在硬件、软件、管理、营销等领域的一批专家型青年才俊,积极响应国家“大众创业,万众创新”的号召,致力于为
+        | 中国工业企业转型升级提供个性化的智能应用解决方案。目前公司已拥有自己10余项核心专利技术, 并组建了专业化的硬件、软件研发
+        | 团队, 与铁路、电网等大型企业进行针对性研发合作,持续提升公司的创新能力和水平。
+      a.button(href='#') Continue Reading
+    .clear
+    .separator
   .grid_10.ident-bot-2
     h2.ident-bot-10 合作伙伴
     #carousel-1.es-carousel-wrapper
       .es-carousel
         ul
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/portfolio/port-1.jpg', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-1.jpg')
             .tagline
-              h3 个人通信已迈入沟通3.0时代
+              h3 小鱼易连
             p
-              | 从人类的诞生到今天，人们在创造新的沟通方式上进行不懈的努力和探索：语言的产生、文字的创造，互联网的发展与普及都使人类沟通进入了一个更加文明的时代。人类的智慧与灵感将带动科技进步，这种进步为人类创造更新的生活方式提供了可能。
+              | a
             a(href='#') read more —
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/portfolio/port-2.jpg', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-2.jpg')
             .tagline
@@ -25,7 +41,7 @@ block friend
               | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
             a(href='#') read more —
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-3.jpg')
             .tagline
@@ -34,7 +50,7 @@ block friend
               | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
             a(href='#') read more —
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-4.jpg')
             .tagline
@@ -43,7 +59,7 @@ block friend
               | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
             a(href='#') read more —
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-5.jpg')
             .tagline
@@ -52,7 +68,7 @@ block friend
               | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
             a(href='#') read more —
           li
-            .grid_4.alpha.ident-bot-2
+            .grid_2.alpha.ident-bot-2
               a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
                 img.img-border(alt='', src='images/portfolio/port-6.jpg')
             .tagline
@@ -60,21 +76,6 @@ block friend
             p
               | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
             a(href='#') read more —
-          li
-            .grid_4.alpha.ident-bot-2
-              a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
-                img.img-border(alt='', src='images/portfolio/port-7.jpg')
-            .tagline
-              h3 Aenean auctor wisi et urna
-            p
-              | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
-            a(href='#') read more —
-          li
-            .grid_4.alpha.ident-bot-2
-              a.lightbox-image.img-border-bg(href='images/image-blank.png', data-gal='prettyPhoto[pp_gal_1]')
-                img.img-border(alt='', src='images/portfolio/port-8.jpg')
-            .tagline
-              h3 Aenean auctor wisi et urna
-            p
-              | Lorem ipsum dolor sit amet, elscitere consectetur elit, sed reser do eiusmod tempor magna aliqua.
-            a(href='#') read more —
+    .clear
+    .separator
+  .grid_10.ident-bot-2

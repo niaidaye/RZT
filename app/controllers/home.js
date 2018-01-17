@@ -53,9 +53,17 @@ router.get('/CompanyActivity', (req, res, next) => {
   });
 });
 
-// contact
-router.get('/contact', (req, res, next) => {
-  res.render('blog/contact', {
+// product
+router.get('/product', (req, res, next) => {
+  res.render('product/main.jade', {
+    title: 'Node-Blog Contact',
+    pretty: true,
+  });
+});
+
+// serve
+router.get('/serve', (req, res, next) => {
+  res.render('serve/index.jade', {
     title: 'Node-Blog Contact',
     pretty: true,
   });
@@ -63,14 +71,14 @@ router.get('/contact', (req, res, next) => {
 
 // about
 router.get('/about', (req, res, next) => {
-  res.render('about/index.jade', {
+  res.render('about/main.jade', {
     title: 'Node-Blog Contact',
     pretty: true,
   });
 });
 
 // abour>company
-router.get('/about', (req, res, next) => {
+router.get('/company', (req, res, next) => {
   res.render('about/profile/CProfile.jade', {
     title: 'Node-Blog Contact',
     pretty: true,
