@@ -41,7 +41,7 @@ block content
                   img.img-1(alt='', src='images/icons/icon5.png')
                   img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
           // 热售
-          .categories
+          .categories(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:100px;overflow:auto; position: relative;')
             h5 热售
             ul
               li
@@ -53,7 +53,7 @@ block content
               li
                 a(href='#') Web Design
           // 动态
-          .recent-post
+          .recent-post(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:200px;overflow:auto; position: relative;')
             h5 公司动态
             .recent-post-block
               a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_5]', href='images/activity/2017/EndSprint/17101.jpg')
@@ -82,19 +82,11 @@ block content
               p.ident-bot-0
                 | 荣知通由来自国内外知名机电设备和IT科技公司包括微软，网易的管理者和研发核心成员共同创建。成立之初便获得泊水等投资机构和个人的风险投资。核心研发团队在云计算，视频会议，视频监控以及智能设备方面具有丰富的开发经验。
           // 业内新闻
-          .our-sponsors
+          .our-sponsors(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:200px;overflow:auto; position: relative;')
             h5 行内新闻
             #accordion
-              a “司法慧眼”
-              p
-                | a
-              a “五剑齐发 势不可挡”
-              p
-                | q
-              a “五剑齐发”
-              p
-                | q
-              a “势不可挡”
-              p
-                | q
+              a(href='/TradeNews') “司法慧眼”
+              a(href='/TradeNews') “五剑齐发 势不可挡”
+              a(href='/TradeNews') “五剑齐发”
+              a(href='/TradeNews') “势不可挡”
       .clear
