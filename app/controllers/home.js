@@ -9,7 +9,7 @@ module.exports = (app) => {
 // Index
 router.get('/', (req, res, next) => {
   const articles = [new Article(), new Article()];
-  res.render('Index/Index', {
+  res.render('index/index', {
     title: '广州荣知通信息科技有限公司',
     articles: articles
   });

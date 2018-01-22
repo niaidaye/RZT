@@ -24,7 +24,7 @@ LIST ELEMENTS
 
 .list-style li a img { padding-right: 12px; width: auto !important; }
 
-.list-style li a { color: #777777; }
+.list-style li a { color: #000000; }
 
 .list-style li a:hover { }
 
@@ -204,35 +204,35 @@ margin-bottom: 0; margin-left: 0; -webkit-border-radius: 3px; -moz-border-radius
 Progress Bar
 ========================================================================= */
 
-@-webkit-keyframes 
+@-webkit-keyframes
 progress-bar-stripes { from {
  background-position: 40px 0;
 }
 
 to { background-position: 0 0; }
 }
- @-moz-keyframes 
+ @-moz-keyframes
 progress-bar-stripes { from {
  background-position: 40px 0;
 }
 
 to { background-position: 0 0; }
 }
- @-ms-keyframes 
+ @-ms-keyframes
 progress-bar-stripes { from {
  background-position: 40px 0;
 }
 
 to { background-position: 0 0; }
 }
- @-o-keyframes 
+ @-o-keyframes
 progress-bar-stripes { from {
  background-position: 0 0;
 }
 
 to { background-position: 40px 0; }
 }
- @keyframes 
+ @keyframes
 progress-bar-stripes { from {
  background-position: 40px 0;
 }
@@ -430,7 +430,7 @@ Price List
 
 .price-list-1 li span { float: right; color: #EB4D3A; padding-right: 30px; }
 
-.price-list-1 li a { background: url("../images/icons/arrow.png") no-repeat scroll 10px 5px transparent; float: left; padding-left: 30px; text-decoration: none; color: #777; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; behavior: url(js/PIE.htc); }
+.price-list-1 li a { background: url("../images/icons/arrow.png") no-repeat scroll 10px 5px transparent; float: left; padding-left: 30px; text-decoration: none; color: rgb(0, 0, 0); -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; behavior: url(js/PIE.htc); }
 
 .price-list-1 li a:hover, .price-list-1 li:hover a { color:#EB4D3A; }
  @media only screen and (min-width: 768px) and (max-width: 959px) {
