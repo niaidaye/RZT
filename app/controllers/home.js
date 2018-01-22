@@ -63,7 +63,7 @@ router.get('/product', (req, res, next) => {
 
 // serve
 router.get('/serve', (req, res, next) => {
-  res.render('serve/index.jade', {
+  res.render('serve/server_1.jade', {
     title: 'Node-Blog Contact',
     pretty: true,
   });

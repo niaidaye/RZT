@@ -1,0 +1,15 @@
+extends index.jade
+
+block server
+  .grid_10
+    h3 服务中心
+    ul.tab-menu
+      li
+        a(href='#tab1') 会议室系统集成
+      li
+        a(href='#tab2') 远程教育系统集成
+    .tab-container
+      #tab1.tab-content
+        .grid_10(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:700px; overflow:auto; position:relative;')
+      #tab2.tab-content
+        .grid_10(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:700px; overflow:auto; position:relative;')
