@@ -18,7 +18,7 @@ router.get('/', (req, res, next) => {
 // news
 router.get('/news', (req, res, next) => {
   res.render('news/Index/content_new', {
-    title: 'news',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -26,21 +26,21 @@ router.get('/news', (req, res, next) => {
 // news>Promotion
 router.get('/Promotion_1', (req, res, next) => {
   res.render('news/Promotion/index_1',{
-    title: 'Promotion_1',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
 //
 router.get('/Promotion_2', (req, res, next) => {
   res.render('news/Promotion/index_2',{
-    title: 'Promotion_2',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
 // news>TradeNews
 router.get('/TradeNews', (req, res, next) => {
   res.render('news/TradeNews/index',{
-    title: 'TradeNews',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -48,7 +48,7 @@ router.get('/TradeNews', (req, res, next) => {
 // news>CompanyActivity
 router.get('/CompanyActivity', (req, res, next) => {
   res.render('news/CompanyActivity/index',{
-    title: 'CompanyActivity',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -56,7 +56,15 @@ router.get('/CompanyActivity', (req, res, next) => {
 // product
 router.get('/product', (req, res, next) => {
   res.render('product/main.jade', {
-    title: 'Node-Blog Contact',
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+// product>video
+router.get('/cloudvideo', (req, res, next) => {
+  res.render('product/CloudVideo/cloudvideo.jade', {
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -64,7 +72,7 @@ router.get('/product', (req, res, next) => {
 // serve
 router.get('/serve', (req, res, next) => {
   res.render('serve/server_1.jade', {
-    title: 'Node-Blog Contact',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -72,7 +80,7 @@ router.get('/serve', (req, res, next) => {
 // about
 router.get('/about', (req, res, next) => {
   res.render('about/main.jade', {
-    title: 'Node-Blog Contact',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -80,7 +88,7 @@ router.get('/about', (req, res, next) => {
 // abour>company
 router.get('/company', (req, res, next) => {
   res.render('about/profile/CProfile.jade', {
-    title: 'Node-Blog Contact',
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
@@ -88,7 +96,15 @@ router.get('/company', (req, res, next) => {
 // about>friend
 router.get('/friend', (req, res, next) => {
   res.render('about/friend/friend.jade', {
-    title: 'Node-Blog Contact',
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+// about>JoinUs
+router.get('/JoinUs', (req, res, next) => {
+  res.render('about/JoinUs/join_us.jade', {
+    title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });

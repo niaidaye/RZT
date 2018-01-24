@@ -51,3 +51,8 @@
 .home-form textarea { height: 100px; }
 
 .home-form-btn { border: 0 none; font-size: 12px; width: 100%; }
+
+#map {
+  width: 380px;
+  height: 280px;
+}

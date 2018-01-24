@@ -1,3 +1,62 @@
 extends ../index.jade
 
 block JoinUs
+  .grid_10
+    .grid_6
+      h2 地址：→
+      #map.map.img-border-2.ident-bot-2
+
+    .grid_3
+      dl
+        dt.ident-bot-2
+          strong
+            | 广东省广州市番禺区
+            br
+            |             石壁街汉溪大道西283号奥园越时代广场东塔328室
+        dd
+          span 杨总
+          | 联系人：
+        dd
+          span +86 188 2471 7688
+          | 手机:
+        dd
+          span +020-311 479 20
+          | 电话:
+        dd
+          span +1 300 123 9898
+          | FAX:
+        dd
+          | E-mail:
+          a.link-1(href='#') mail@owltemplates.com
+    .grid_10
+      h2 欢迎您的加入
+      #confirm(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:200px;overflow:auto; position: relative;')
+        form#form1
+          .success  Contact form submitted! We will be in touch soon.
+          fieldset
+            label.name
+              input(type='text', value='姓名:')
+              span.error *This is not a valid name.
+              span.empty *Please enter Full Name .
+            label.email
+              input(type='email', value='邮箱:')
+              span.error *This is not a valid email address.
+              span.empty *Please enter Email Address.
+            label.phone
+              input(type='tel', value='电话:')
+              span.error *This is not a valid phone number.
+              span.empty *Please enter Phone Number.
+            label.message
+              textarea 加入理由:
+              span.error *The message is too short.
+              span.empty *Please enter Some Text .
+            .clear
+            .btns
+              a.button-yellow.button-radius-50(href='#', data-type='reset') 清除
+              a.button-yellow.button-radius-50(href='#', data-type='submit') 发送
+
+
+  div(style='display:none')
+    script(src='http://webapi.amap.com/maps?v=1.4.3&key=24a85acd34ad1ddfc8ae75171fb95e41', language='JavaScript', charset='gb2312')
+
+
