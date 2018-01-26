@@ -69,6 +69,14 @@ router.get('/cloudvideo', (req, res, next) => {
   });
 });
 
+// product>interHardware
+router.get('/intelHardware', (req, res, next) => {
+  res.render('product/IntelHardware/intelHardware.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
 // serve
 router.get('/serve', (req, res, next) => {
   res.render('serve/server_1.jade', {
