@@ -4,9 +4,9 @@ block main
   block header
     // header
     header
-      .row-1
-        .container_12
-          .grid_12
+      .header_bg(style="height: 90px")
+        .wrap
+          .header
             .logo.fleft
               h1
                 a(href='/') 荣知通
@@ -15,7 +15,7 @@ block main
               img(src='images/icons/icon-phone.png', alt='')
               span Call CN: 020-31147920
             .clear
-          .clear
+            .clear
       .row-3
         .container_12
           .grid_12
@@ -31,9 +31,7 @@ block main
                 if pageName === '/news'
                   li.active
                     a(href='/news') 新闻动态
-                    ul
-                      li
-                        a(href='/Promotion_1') 促销活动
+                    ul.sf-menu
                       li
                         a(href='/CompanyActivity') 公司动态
                       li
@@ -41,9 +39,7 @@ block main
                 else
                   li
                     a(href='/news') 新闻动态
-                    ul
-                      li
-                        a(href='/Promotion_1') 促销活动
+                    ul.sf-menu
                       li
                         a(href='/CompanyActivity') 公司动态
                       li
@@ -51,99 +47,129 @@ block main
                 if pageName === '/product'
                   li.active
                     a(href='/product') 产品中心
-                    ul
+                    ul.sf-menu
                       li
-                        a(href='/cloudvideo') 云视讯系列
-                          ul
+                        a(href='/cloudvideo') 智能终端
+                          ul.sf-menu
                             li
-                              a() 智能会议终端
+                              a(href='/cloudvideo') ME90 （大型会议配置）
                             li
-                              a() 智能会议云平台
+                              a(href='/cloudvideo') ME40 （中型会场配置）
                             li
-                              a() 智能显示设备
+                              a() ME20 （小型会场配置）
                             li
-                              a() 智能调度设备
+                              a() NE60 （小型会场配置）
+                            li
+                              a(href='/cloudvideo') MAXHUB
+                            li
+                              a() 配件
                       li
-                        a(href='/interHardware') 智能硬件
-                          ul
+                        a(href='/intel') 智能硬件
+                          ul.sf-menu
                             li
-                              a() 隧道检查仪
+                              a(href='/intel') 隧道检查仪
                             li
-                              a() 音视频记录仪
+                              a(href='/intel') 音视频记录仪
+                            li
+                              a(href='/intel') GPS摄像手电
+                            li
+                              a(href='/intel') M91H布控球
+                            li
+                              a(href='/intel') 应急指挥箱
                       li
-                        a(href='price-list.html') 专用工具
-                          ul
+                        a(href='/tools') 专用工具
+                          ul.sf-menu
                             li
-                              a() 轨道平板车
+                              a(href='/tools') 太阳能铁路障碍灯
                             li
-                              a() 应急夹板双肩包
+                              a(href='/tools') 应急夹板双肩包
                 else
                   li
                     a(href='/product') 产品中心
-                    ul
+                    ul.sf-menu
                       li
-                        a(href='/cloudvideo') 云视讯系列
-                          ul
+                        a(href='/cloudvideo') 智能终端
+                          ul.sf-menu
                             li
-                              a() 智能会议终端
+                              a(href='/cloudvideo') ME90 （大型会议配置）
                             li
-                              a() 智能会议云平台
+                              a(href='/cloudvideo') ME40 （中型会场配置）
                             li
-                              a() 智能显示设备
+                              a() ME20 （小型会场配置）
                             li
-                              a() 智能调度设备
+                              a() NE60 （小型会场配置）
+                            li
+                              a(href='/cloudvideo') MAXHUB
+                            li
+                              a() 配件
                       li
-                        a(href='/interHardware') 智能硬件
-                          ul
+                        a(href='/intel') 智能硬件
+                          ul.sf-menu
                             li
-                              a() 隧道检查仪
+                              a(href='/intel') 隧道检查仪
                             li
-                              a() 音视频记录仪
+                              a(href='/intel') 音视频记录仪
+                            li
+                              a(href='/intel') GPS摄像手电
+                            li
+                              a(href='/intel') M91H布控球
+                            li
+                              a(href='/intel') 应急指挥箱
                       li
-                        a(href='price-list.html') 专用工具
-                          ul
+                        a(href='/tools') 专用工具
+                          ul.sf-menu
                             li
-                              a() 轨道平板车
+                              a(href='/tools') 太阳能铁路障碍灯
                             li
-                              a() 应急夹板双肩包
+                              a(href='/tools') 应急夹板双肩包
                 if pageName === '/serve'
                   li.active
                     a(href='/serve') 服务项目
-                    ul
+                    ul.sf-menu
                       li
-                        a(href='blog.html') 会议室系统集成
+                        a(href='/serve') 会议室集成方案定制
                       li
-                        a(href='blog-single.html') 远程直教系统集成
+                        a(href='/serve') 远程直教系统方案定制
                       li
-                        a(href='blog-single.html') 中央音视频系统集成
+                        a(href='/serve') 远程应急指挥方案定制
                       li
-                        a(href='blog-single.html') 云服务系统集成
+                        a(href='/serve') 综合音视频服务
+                      li
+                        a(href='/serve') 云服务定制
                 else
                   li
                     a(href='/serve') 服务项目
-                    ul
+                    ul.sf-menu
                       li
-                        a(href='blog.html') 会议室系统集成
+                        a(href='/serve') 会议室集成方案定制
                       li
-                        a(href='blog-single.html') 远程直教系统集成
+                        a(href='/serve') 远程直教系统方案定制
                       li
-                        a(href='blog-single.html') 中央音视频系统集成
+                        a(href='/serve') 远程应急指挥方案定制
                       li
-                        a(href='blog-single.html') 云服务系统集成
+                        a(href='/serve') 综合音视频服务
+                      li
+                        a(href='/serve') 云服务定制
+                if pageName === '/Promotion_1'
+                  li.active
+                    a(href='/Promotion_1')  应用场景
+                else
+                  li
+                    a(href='/Promotion_1')  应用场景
                 if pageName === '/about'
                   li.active
                     a(href='/about') 关于我们
-                    ul
+                    ul.sf-menu
                       li
                         a(href='/company') 公司介绍
                       li
                         a(href='/JoinUs') 加入我们
                       li
-                        a(href='blog-single.html') 联系我们
+                        a(href='') 联系我们
                 else
                   li
                     a(href='/about') 关于我们
-                    ul
+                    ul.sf-menu
                       li
                         a(href='/company') 公司介绍
                       li
@@ -155,8 +181,6 @@ block main
               img(alt='', src='images/icons/offer-icon.png')
               | 加入收藏
             select#responsive-main-nav-menu(onchange='javascript:window.location.replace(this.value);')
-            .clear
-          .clear
     // end header
 
   block content
@@ -172,67 +196,23 @@ block main
               .block-ident-4
                 // Text Widget
                 .ident-bot-1
-                  h5 公司联系方式
                   img.fleft.ident-right-1(src='images/logo-footer.png', alt='')
-                  p
+                  h5 公司联系方式:
+                    p
                     | 广东省广州市番禺区石壁街汉溪大道西283号奥园越时代广场东塔328室
-                  dl
-                    dd
-                      | 杨杰
-                    dd
-                      | 手机:
-                      span +188 9843 8855
-                    dd
-                      | 电话:
-                      span +020-31147920
-                    dd
-                      | E-mail:
-                      a.link-1(href='#') yangjie@rztit.com
-                .clear
-                .footer-separator
-
-            .grid_4
-              // CONNECT_WITH_US
-              .wrapper
-                .sociable
-                  h5 关联我们
-                  ul.social
-                    li
-                      a(href='#')
-                        img.img-1(alt='', src='images/icons/icon1.png')
-                        img.img-2(alt='', title='Facebook', src='images/icons/icon1-hover.png')
-                    li
-                      a(href='#')
-                        img.img-1(alt='', src='images/icons/icon2.png')
-                        img.img-2(alt='', title='Flickr', src='images/icons/icon2-hover.png')
-                    li
-                      a(href='#')
-                        img.img-1(alt='', src='images/icons/icon3.png')
-                        img.img-2(alt='', title='Twitter', src='images/icons/icon3-hover.png')
-                    li
-                      a(href='#')
-                        img.img-1(alt='', src='images/icons/icon4.png')
-                        img.img-2(alt='', title='RSS', src='images/icons/icon4-hover.png')
-                    li
-                      a(href='#')
-                        img.img-1(alt='', src='images/icons/icon5.png')
-                        img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
-
-              .clear
-              .footer-separator
-              // Tag Cloud
-              .wrapper.tags
-                h5 专业服务
-                a(href='#') 视频会议
-                a(href='#') 专业音响
-                a(href='#') 舞台灯光
-                a(href='#') 集中控制
-                a(href='#') 信息发布
-                a(href='#') 无纸化会议
-                a(href='#') BOEGAM
-                a(href='#') 多媒体会议
-                a(href='#') MZXHUB
-                a(href='#') 小鱼易连
+            .grid_2.fright
+              dl
+                dd
+                  | 杨先生
+                dd
+                  | 手机:
+                  span +188 9843 8855
+                dd
+                  | 电话:
+                  span +020-31147920
+                dd
+                  | E-mail:
+                  span yangjie@rztit.com
       .footer-2
         .container_12
           .wrapper

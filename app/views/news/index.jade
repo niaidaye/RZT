@@ -5,102 +5,82 @@ block content
   section#content
     .container_12
       .grid_12
-        .breadcrumbs
+        .breadcrumbs(style="height:33px")
           p
             span.bread-home
               a(href='/') Home
-            a(href='/about') 新闻动态
+            a(href='/news') 新闻动态
+            if pageName === '/CompanyActivity'
+              a() 公司活动
+            if pageName === '/TradeNews'
+              a() 行业新闻
+      .grid_2.fright
+        h2 联系我们
+        p.ident-bot-0
+          strong 杨先生
+        ul.list-rate.ident-bot-2
+          li
+            a(href='#') 18824717688
+            span 手机
+          li
+            a(href='#') 020-31147920
+            span 电话
+          li
+            a rzt@rztit.com
+            span 邮箱
+          li
+            a(href='www.rztit.com') www.rztit.com
+            span 网址
+        p.ident-bot-0
+          strong 视频体验热线
+        ul.list-rate.ident-bot-2
+          li
+            a(href='#') 818196
+            span 小鱼号（会议室）
+        .clear
+        .separator
+        h2 视频会议
+        ul.list-rate.ident-bot-2
+          li
+            a(href='#') 智能会议终端
+            span >
+          li
+            a(href='#') 智能会议云平台
+            span >
+          li
+            a(href='#') 智能显示装备
+            span >
+        .clear
+        .separator
+        h2 专用智能硬件
+        ul.list-rate.ident-bot-2
+          li
+            a() 隧道检查仪
+            span >
+          li
+            a() GPS摄影手电
+            span >
+          li
+            a() 音视频记录仪
+            span >
+          li
+            a() M91H布控球
+            span >
+          li
+            a() 应急指挥箱
+            span >
+        .clear
+        .separator
+        h2 专用工具
+        ul.list-rate.ident-bot-2
+          li
+            a() 轨道平板车
+            span >
+          li
+            a 应急夹板双肩包
+            span >
+        .clear
+        .separator
+
       // SITE CONTENTS
       block content_1
-      // right CONTENTS
-      aside.grid_4.fright
-        // 新闻组的右侧导航
-        .sidebar-blog
-          // 关注我们
-          .sociable.sidebar-social
-            h5 关注我们
-            ul.social
-              li
-                a(href='#')
-                  img.img-1(alt='', src='images/icons/icon1.png')
-                  img.img-2(alt='', title='Facebook', src='images/icons/icon1-hover.png')
-              li
-                a(href='#')
-                  img.img-1(alt='', src='images/icons/icon2.png')
-                  img.img-2(alt='', title='Flickr', src='images/icons/icon2-hover.png')
-              li
-                a(href='#')
-                  img.img-1(alt='', src='images/icons/icon3.png')
-                  img.img-2(alt='', title='Twitter', src='images/icons/icon3-hover.png')
-              li
-                a(href='#')
-                  img.img-1(alt='', src='images/icons/icon4.png')
-                  img.img-2(alt='', title='RSS', src='images/icons/icon4-hover.png')
-              li
-                a(href='#')
-                  img.img-1(alt='', src='images/icons/icon5.png')
-                  img.img-2(alt='', title='Technorati', src='images/icons/icon5-hover.png')
-          // 热售
-          .categories(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:100px;overflow:auto; position: relative;')
-            h5 热售
-            ul
-              li
-                a(href='#') Gel Polish
-              li
-                a(href='#') Stress-Free
-              li
-                a(href='#') Graft-a-Lash
-              li
-                a(href='#') Web Design
-          // 动态
-          .recent-post
-            h5 公司动态
-            div(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:200px;overflow:auto; position: relative;')
-              .recent-post-block
-                a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_5]', href='images/activity/2017/EndSprint/17101.jpg')
-                  img.img-border(src='images/thumbnail/EndSprint.png', alt='', title='')
-                a.link-name(href='#') 2017年市场部年底冲刺宣誓大会
-                span.smalldate 10月, 2017
-              .recent-post-block
-                a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_2]', href='images/activity/2017/NewSite/17106.png')
-                  img.img-border(src='images/thumbnail/NewSite.png', alt='', title='')
-                a.link-name(href='#') 随着荣知通业务发展扩大,原先的办公室已经不能满足荣知通发展的需求,荣知通搬迁到...
-                span.smalldate 06月, 2017
-              .recent-post-block
-                a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_3]', href='images/activity/2016/IOT·Cloud Computing/exhibition5.jpg')
-                  img.img-border(src='images/thumbnail/exhibition5.png', alt='', title='')
-                a.link-name(href='#') 2016届中国（惠州）物联网·云计算技术应用博览会参展实况
-                span.smalldate 11月1日~3日, 2016
-
-          // 公司的简单介绍
-          .side-paragraph
-            h5 公司简介
-            div
-              a.lightbox-image.img-border-bg.fleft(data-gal='prettyPhoto[pp_gal_4]', href='images/activity/company/logo_max.png')
-                img.img-border(src='images/logo_mi.png', alt='', title='')
-              p.ident-bot-0
-                | 广州荣知通信息科技有限公司成立于2016年, 是一家致力于工业智能化领域产品研发、生产、销售和售后服务为一体的高科技企业。
-              p.ident-bot-0
-                | 荣知通由来自国内外知名机电设备和IT科技公司包括微软，网易的管理者和研发核心成员共同创建。成立之初便获得泊水等投资机构和个人的风险投资。核心研发团队在云计算，视频会议，视频监控以及智能设备方面具有丰富的开发经验。
-          // 业内新闻
-          .our-sponsors
-            h5 行内新闻
-            ul.list-style(data-spy='scroll', data-target='#navbar-example', data-offset='0', style='height:200px;overflow:auto; position: relative;')
-              li.arrow-list
-                a(href='#') 司法慧眼
-              li.arrow-list
-                a(href='#') 物联网·云计算技术
-              li.arrow-list
-                a(href='#') Circle List - Item Label
-              li.arrow-list
-                a(href='#') Check List - Item Label
-              li.arrow-list
-                a(href='#') Check 2 List - Item Label
-              li.arrow-list
-                a(href='#') Star List - Item Label
-              li.arrow-list
-                a(href='#') Plus List - Item Label
-              li.arrow-list
-                a(href='#') Dash List - Item Label
-
-      .clear

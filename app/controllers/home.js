@@ -25,14 +25,14 @@ router.get('/news', (req, res, next) => {
 
 // news>Promotion
 router.get('/Promotion_1', (req, res, next) => {
-  res.render('news/Promotion/index_1',{
+  res.render('Promotion/index_1',{
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
 //
 router.get('/Promotion_2', (req, res, next) => {
-  res.render('news/Promotion/index_2',{
+  res.render('Promotion/index_2',{
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
@@ -63,15 +63,96 @@ router.get('/product', (req, res, next) => {
 
 // product>video
 router.get('/cloudvideo', (req, res, next) => {
-  res.render('product/CloudVideo/cloudvideo.jade', {
+  res.render('product/CloudVideo/ME90.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/ME90', (req, res, next) => {
+  res.render('product/CloudVideo/ME90.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+//ME60
+router.get('/ME40', (req, res, next) => {
+  res.render('product/CloudVideo/ME40.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+router.get('/ME20', (req, res, next) => {
+  res.render('product/CloudVideo/ME20.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+router.get('/NE60', (req, res, next) => {
+  res.render('product/CloudVideo/NE60.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+router.get('/MAXHUB', (req, res, next) => {
+  res.render('product/CloudVideo/MAXHUB.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+router.get('/PJ', (req, res, next) => {
+  res.render('product/CloudVideo/PJ.jade', {
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
 
 // product>interHardware
-router.get('/intelHardware', (req, res, next) => {
-  res.render('product/IntelHardware/intelHardware.jade', {
+router.get('/intel', (req, res, next) => {
+  res.render('product/Intel/RZTSD001.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+// product>interHardaware>SD001
+router.get('/RZTSD001', (req, res, next) => {
+  res.render('product/Intel/RZTSD001.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/RZTXJ002', (req, res, next) => {
+  res.render('product/Intel/RZTXJ002.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/RZTJK001', (req, res, next) => {
+  res.render('product/Intel/RZTJK001.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/RZTM91H', (req, res, next) => {
+  res.render('product/Intel/RZTM91H.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/RZTT006', (req, res, next) => {
+  res.render('product/Intel/RZTT006.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+
+// product>tools
+router.get('/tools', (req, res, next) => {
+  res.render('product/Tools/tools.jade', {
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });

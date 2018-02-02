@@ -290,16 +290,16 @@
 }
 
 .box1 h3 {
-  padding: 20px 0 0 0;
+  padding: 20px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
 .box1 p {
   color: rgb(51, 51, 51);
-  font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0 40px;
+  padding: 10px 40px;
 }
 
 .box1:hover {
@@ -340,7 +340,7 @@
 ========================================================================= */
 
 .quotes {
-  width: 592px;
+  width: 70%;
   height: 52px;
   position: relative;
   float: left;
@@ -349,7 +349,7 @@
 }
 
 .quotes blockquote {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 22px;
   font-family: 'OpenSansItalic', Arial;
   color: #292929;

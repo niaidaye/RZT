@@ -146,7 +146,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .sf-menu ul {
   position: absolute;
   top: -999em;
-  width: 176px;
+  width: 300px;
   background: #2c2c2c;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);

@@ -91,7 +91,7 @@ Message Boxes
 blockquotes
 ========================================================================= */
 
-blockquote { background: url("../images/icons/qoute.png") no-repeat scroll left top transparent; font-size: 14px; line-height: 1.8em; font-family: 'georgia'; font-style: italic; margin-bottom: 30px; padding-left: 40px; }
+blockquote { background: url("../images/icons/qoute.png") no-repeat scroll left top transparent; font-size: 16px; line-height: 1.8em; font-family: "微软雅黑 Light"; font-style: normal; margin-bottom: 30px; padding-left: 40px; }
 
 blockquote.black { background: url("../images/icons/qoute.png") no-repeat scroll 10px 30px #4A5151; color: #fff; padding: 30px 30px 10px; border-radius: 6px 6px 6px 6px; -moz-border-radius: 6px 6px 6px 6px; -webkit-border-radius: 6px 6px 6px 6px; behavior: url(js/PIE.htc); }
 

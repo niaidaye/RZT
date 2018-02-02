@@ -1,0 +1,41 @@
+extends index
+// 继承news中的content_1
+
+block content_1
+  section.grid_12
+    .post-border-right
+      article.post-holder
+        header
+          h2.entry-title
+            a(href='#') 远程多方视频会议
+          embed(src='/pdf/1.pdf', type='application/pdf', width='100%', height='700px')
+        a.button.ident-bot-2(href='blog-single.html') Continue Reading
+      .clear
+      .separator
+      article.post-holder
+        header
+          h2.entry-title
+            a(href='#') 异地协同办公
+          embed(src='/pdf/异地协同办公.pdf', type='application/pdf', width='100%', height='700px')
+        a.button.ident-bot-2(href='blog-single.html') Continue Reading
+      .clear
+      .separator
+      .pagination.fright
+        ul
+          li.disabled
+            a(href='#') «
+          if pageName === '/Promotion_1'
+            li.active
+              a(href='/Promotion_1') 1
+          else
+            li
+              a(href='/Promotion_1') 1
+          if pageName === '/Promotion_2'
+            li.active
+              a(href='/Promotion_2') 2
+          else
+            li
+              a(href='/Promotion_2') 2
+          li
+            a(href='#') »
+
