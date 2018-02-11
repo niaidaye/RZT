@@ -1,59 +1,82 @@
 extends index.jade
 
 block main5
-  .grid_10.ident-bot-2
-    .block-ident-3
-      h2 公司简介
-      .grid_4.alpha.block-ident-2
-        .img-border-bg
-          img.img-border.fleft(src='images/pic1.jpg', alt='')
-      p.ident-bot-2
-        strong
-          | 广州荣知通信息科技有限公司成立于2016年, 是一家致力于工业智能化领域产品研发、生产、销售和售后服务为一体的高科技企业。
-      p
-        | 公司集中了一批国内外在硬件、软件、管理、营销等领域的一批专家型青年才俊,积极响应国家“大众创业,万众创新”的号召,致力于为
-        | 中国工业企业转型升级提供个性化的智能应用解决方案。目前公司已拥有自己10余项核心专利技术, 并组建了专业化的硬件、软件研发
-        | 团队, 与铁路、电网等大型企业进行针对性研发合作,持续提升公司的创新能力和水平。
-      a.button(href='/company') 详细
-    .clear
-    .separator
-  .grid_10.ident-bot-2
-    h2.ident-bot-10 合作伙伴
-    #carousel-1.es-carousel-wrapper
-      .es-carousel
-        ul
-          li
-            .grid_2.alpha.ident-bot-2
-              a.lightbox-image.img-border-bg(href='images/blog/friend/xiaoyuyilian.jpg', data-gal='prettyPhoto[pp_gal_1]')
-                img.img-border(alt='', src='images/blog/friend/xiaoyuyilian.jpg')
-            .tagline
-              h3 小鱼易连
-            p
-              | 全场景、全应用硬件矩阵，沉浸其中
-              | 全球首创智能硬件产品，极致简单用户体验
-            a(href='http://www.xylink.com/' target='_blank') 详细
-          li
-            .grid_2.alpha.ident-bot-2
-              a.lightbox-image.img-border-bg(href='images/blog/friend/xiaoyubangong.jpg', data-gal='prettyPhoto[pp_gal_1]')
-                img.img-border(alt='', src='images/blog/friend/xiaoyubangong.jpg')
-            .tagline
-              h3 小鱼办公
-            p
-              | 视频会议，从未如此简单
-              | 无需专人专线，老板都会操控
-              | 微信发起会议，一键呼叫企业内外部联系人
-            a(href='http://www.xylink.com/product/video') 详细 —
-          li
-            .grid_2.alpha.ident-bot-2
-              a.lightbox-image.img-border-bg(href='images/blog/friend/MAXHUB.png', data-gal='prettyPhoto[pp_gal_1]')
-                img.img-border(alt='', src='images/blog/friend/MAXHUB.png')
-            .tagline
-              h3 MAXHUB
-            p
-              | 高效会议平台
-              | 触摸书写
-              | 无线传屏...
-            a(href='https://www.maxhub.vip/' target='_blank') 详细 —
-    .clear
-    .separator
-  .grid_10.ident-bot-2
+  .grid_10
+    .grid_12.ident-bot-2
+      .block-ident-3
+        h2 公司简介
+        .grid_4.alpha.block-ident-2
+          .img-border-bg
+            img.img-border.fleft(src='images/company/2.png', alt='')
+        p.ident-bot-2
+          strong
+            | 广州荣知通信息科技有限公司成立于2016年, 是一家致力于工业智能化领域产品研发、生产、销售和售后服务为一体的高科技企业。
+        p
+          | 公司集中了一批国内外在硬件、软件、管理、营销等领域的一批专家型青年才俊,积极响应国家“大众创业,万众创新”的号召,致力于为
+          | 中国工业企业转型升级提供个性化的智能应用解决方案。目前公司已拥有自己10余项核心专利技术, 并组建了专业化的硬件、软件研发
+          | 团队, 与铁路、电网等大型企业进行针对性研发合作,持续提升公司的创新能力和水平。
+        a.button(href='/company') 详细
+      .clear
+      .separator
+    .grid_12.ident-bot-2
+      h2.ident-bot-10 合作伙伴
+      #carousel-1.es-carousel-wrapper
+        .es-carousel
+          ul
+            li
+              .grid_12.alpha.ident-bot-2
+                a.lightbox-image.img-border-bg(href='images/blog/friend/xiaoyuyilian.jpg', data-gal='prettyPhoto[pp_gal_1]')
+                  img.img-border(alt='', src='images/blog/friend/xiaoyuyilian.jpg')
+              .tagline
+                h3 小鱼易连
+              p
+                | 全场景、全应用硬件矩阵，沉浸其中
+                | 全球首创智能硬件产品，极致简单用户体验
+              a(href='http://www.xylink.com/' target='_blank') 详细
+            li
+              .grid_12.alpha.ident-bot-2
+                a.lightbox-image.img-border-bg(href='images/blog/friend/xiaoyubangong.jpg', data-gal='prettyPhoto[pp_gal_1]')
+                  img.img-border(alt='', src='images/blog/friend/xiaoyubangong.jpg')
+              .tagline
+                h3 小鱼办公
+              p
+                | 视频会议，从未如此简单
+                | 无需专人专线，老板都会操控
+                | 微信发起会议，一键呼叫企业内外部联系人
+              a(href='http://www.xylink.com/product/video') 详细 —
+            li
+              .grid_12.alpha.ident-bot-2
+                a.lightbox-image.img-border-bg(href='images/blog/friend/MAXHUB.png', data-gal='prettyPhoto[pp_gal_1]')
+                  img.img-border(alt='', src='images/blog/friend/MAXHUB.png')
+              .tagline
+                h3 MAXHUB
+              p
+                | 高效会议平台
+                | 触摸书写
+                | 无线传屏...
+              a(href='https://www.maxhub.vip/' target='_blank') 详细 —
+      .clear
+      .separator
+    .grid_12.ident-bot-2
+      h1 企业文化
+      p ↓
+        blockquote
+          p
+            | 企业宗旨： 凝聚智慧 服务社会.
+          p
+            | 企业愿景： 做世界工业智能化领域的引领型企业.
+          p
+            | 企业价值观： 同创造 齐分享
+          p
+            | 人才观： 激情 担当 团队
+          p
+            | 服务理念： 快速 主动 优质
+          p
+            | 产品开发理念： 智能科技 简单可靠 实用
+      .clear
+      .separator
+    .grid_12.ident-bot-2
+      h1 企业架构
+      p ↓
+        blockquote
+          img(src='images/architecture.png')

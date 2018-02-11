@@ -8,7 +8,7 @@ const config = {
     app: {
       name: 'rzt'
     },
-    port: process.env.PORT || 3030,
+    port: process.env.PORT || 3050,
   },
 
   test: {

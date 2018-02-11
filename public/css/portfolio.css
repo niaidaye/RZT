@@ -174,7 +174,7 @@
 /* ------------- Portfolio 3 column  ---------------- */
 .portfolio-3column {
   position: relative;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }

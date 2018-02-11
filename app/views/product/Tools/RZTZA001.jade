@@ -1,0 +1,99 @@
+extends ../index.jade
+
+block tools
+  .grid_10.ident-bot-2
+    h3 专用工具
+    ul.tab-menu
+      if pageName === '/RZTZA001'
+        li.active
+          a(href="/RZTZA001") 太阳能铁路障碍灯
+      else
+        li
+          a(href="/RZTZA001") 太阳能铁路障碍灯
+      if pageName === '/RZTYJ'
+        li.active
+          a(href="/RZTYJ") 应急夹板双肩包
+      else
+        li
+          a(href="/RZTYJ") 应急夹板双肩包
+    .tab-container
+      #tab1.tab-content
+        .grid_12
+          .block-ident-3
+            h2 RZTZA001太阳能铁路障碍灯
+            .grid_12.alpha.block-ident-2
+              a.lightbox-image.img-border-bg(href='images/portfolio/product/tools/RZTZA001.jpg', data-gal='prettyPhoto[pp_gal_2]')
+              img.img-border.fleft(src='images/portfolio/product/tools/RZTZA001.jpg', alt='')
+          .grid_12
+            h1 产品特点
+            p
+              strong
+                | 安装携带方便 :
+            p
+              | 采取可拆卸式结构设计，重量轻方便携带，方便运输；
+            p
+              strong
+                | 防水防腐蚀控制器 :
+            p
+              | IP68防水等级，铝制壳设计，有的止各蚀；
+            p
+              strong
+                | 优良的电路保护 :
+            p
+              | 具有过充、过放、短路、过载保护、防反接保护等功能；保护电路不损害，不烧保险；
+            p
+              strong
+                | 简便实用 :
+            p
+              | 直观的双LED数码管显示设置，防水按键操作即可完成
+              | 所有设置，设定时间和数码管显示一一对应，这样更加直观；
+          .grid_12
+            table.table-blue
+              tbody
+                tr
+
+                  td.aligncenter  型号
+
+                  td.aligncenter  RZTZA001太阳能铁路障碍灯
+
+                tr
+
+                  td.aligncenter  控制器额定充电电流
+
+                  td.aligncenter  10A
+
+
+                tr
+                  td.aligncenter  控制器额定负载电流
+
+                  td.aligncenter  10A
+
+                tr
+                  td.aligncenter  控制器过载、短路 保护
+
+                  td.aligncenter  1.25倍额定电流60秒、1.5倍额定 电流5秒时过载保护动作；≥3倍额 定电流短路保护动作
+
+                tr
+                  td.aligncenter  超压保护
+
+                  td.aligncenter  17V
+
+                tr
+                  td.aligncenter  工作温度
+
+                  td.aligncenter  工业级：-35℃~+55℃
+
+                tr
+                  td.aligncenter  连续工作时间
+
+                  td.aligncenter  白昼合用可续航15天，单独夜间用 可维持30天
+
+                tr
+                  td.aligncenter  单晶太阳能板规格
+
+                  td.aligncenter  50W  18V（可定制）
+
+                tr
+                  td.aligncenter  蓄电池规格
+
+                  td.aligncenter  12V  100Ah（可定制）

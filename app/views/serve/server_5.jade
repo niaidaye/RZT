@@ -1,0 +1,70 @@
+extends index.jade
+
+block server
+  .grid_10
+    h3 服务中心
+    ul.tab-menu
+      li
+        a(href='/server_1') 会议室集成方案定制
+      li
+        a(href='/server_2') 远程职教系统方案定制
+      li
+        a(href='/server_3') 远程应急指挥系统方案定制
+      li
+        a(href='/server_4') 综合音视频服务
+      li
+        a(href='/server_5') 云服务定制
+    .tab-container
+      #tab1.tab-content
+        .grid_12
+          .block-ident-3
+            h2 云视频平台部署方案
+          .grid_12
+            h1 公有云部署方案（根据实际需要情况选择）
+            p
+              | 公有云部署方案中，只需要采购小鱼易连的相关云视频服务，
+              | 按需要购买各系列的智能会议终端即可。
+              | 通过小鱼的后台服务生成统一的通讯录和群组，
+              | 并根据权限要求生成不同类别的系统管理员，
+              | 进行系统的日常维护和管理。
+            .grid_12.alpha.block-ident-2
+              .grid_12
+                a.lightbox-image.img-border-bg(href='images/serve/GYYun.jpg', data-gal='prettyPhoto[pp_gal_2]')
+                img.img-border.fleft(src='images/serve/GYYun.jpg', alt='')
+
+          .grid_12
+            h1 私有云部署方案（根据实际需要情况选择）
+            .grid_12
+              p
+                | 私有云部署方案是面向各级政府部门、大中型企事业单位、商业银行、公司集团而专门打造的一整套定制化的视频会议系统。它是基于用户内部的局域网，为用户提供视频会议与远程协作服务。所有的服务器、小鱼的各类终端、以及管理平台均部署于用户局域网内部，保证音视频云服务业务与外部公网完全隔离。按需求还可以实现音视频云服务业务的跨网络化，满足从互联网接入的需求。
+            .grid_12.alpha.block-ident-2
+              .grid_12
+                a.lightbox-image.img-border-bg(href='images/serve/SYYun.jpg', data-gal='prettyPhoto[pp_gal_2]')
+                img.img-border.fleft(src='images/serve/SYYun.jpg', alt='')
+            .grid_12
+              h2 系统的安装部署需要经过四个步骤：
+              p
+                | 	获取license
+              p
+                |   安装及部署私有云系统
+              p
+                |   激活私有云系统
+              p
+                |   首次登陆系统管理平台
+
+          .grid_12
+            h1 2.3.3	混合云部署方案（根据实际需要情况选择）
+            .grid_12
+              p
+                | 在客户环境进行混合部署，可以将处理会议媒体数据的dMCU；会议内容录制vod；H323网关xGW组件部署在客户环境内部；混合部署下直播的服务通过阿里云CDN平台提供。
+              p
+                | 客户内网或公网终端与小鱼公有云之间主要是进行信令与管理信息的交互，相关的媒体数据则在客户内部网络中所部署的dMCU, vod, xGW之间完成传输与处理。
+              p
+                | 客户的业务合作方可以通过公有云与客户内网终端进行会议沟通。
+            .grid_12.alpha.block-ident-2
+              .grid_12
+                a.lightbox-image.img-border-bg(href='images/serve/GSYun.jpg', data-gal='prettyPhoto[pp_gal_2]')
+                img.img-border.fleft(src='images/serve/GSYun.jpg', alt='')
+            .grid_12
+              p
+                | 网络与防火墙端口准备	（系统部署与维护需要可以远程访问主机，如ssh, teamviewer等方式）

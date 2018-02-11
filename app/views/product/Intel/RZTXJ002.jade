@@ -4,24 +4,45 @@ block intel
   .grid_12.ident-bot-2
     h3 智能硬件
     ul.tab-menu
-      li
-        a(href='/RZTSD001') 隧道检查仪
-      li
-        a(href='/RZTXJ002') GPS摄像手电
-      li
-        a(href='/RZTJK001') 音视频记录仪
-      li
-        a(href='/RZTM91H') M91H布控球
-      li
-        a(href='/RZTT006') 应急指挥箱
+      if pageName === '/RZTSD001'
+        li.active
+          a(href='/RZTSD001') 隧道检查仪
+      else
+        li
+          a(href='/RZTSD001') 隧道检查仪
+      if pageName === '/RZTXJ002'
+        li.active
+          a(href='/RZTXJ002') GPS摄像手电
+      else
+        li
+          a(href='/RZTXJ002') GPS摄像手电
+      if pageName === '/RZTJK001'
+        li.active
+          a(href='/RZTJK001') 音视频记录仪
+      else
+        li
+          a(href='/RZTJK001') 音视频记录仪
+      if pageName === '/RZTM91H'
+        li.active
+          a(href='/RZTM91H') M91H布控球
+      else
+        li
+          a(href='/RZTM91H') M91H布控球
+      if pageName === '/RZTT006'
+        li.active
+          a(href='/RZTT006') 应急指挥箱
+      else
+        li
+          a(href='/RZTT006') 应急指挥箱
+
     .tab-container
       #tab1.tab-content
         .grid_12
           .block-ident-3
             h2 GPS摄像手电
             .grid_12.alpha.block-ident-2
-              a.lightbox-image.img-border-bg(href='images/portfolio/product/video/ME90.jpg', data-gal='prettyPhoto[pp_gal_2]')
-              img.img-border.fleft(src='images/portfolio/product/video/ME90.jpg', alt='')
+              a.lightbox-image.img-border-bg(href='images/portfolio/product/intel/RZTXJ002.jpg', data-gal='prettyPhoto[pp_gal_2]')
+              img.img-border.fleft(src='images/portfolio/product/intel/RZTXJ002.jpg', alt='')
           .grid_12
             h1  产品特点
             p
@@ -75,74 +96,28 @@ block intel
               strong
                 | 性能参数
             table.table-blue
-              thead
-                tr
-                  th(colspan='2') 内容
-                  th 单位
-                  th 数值
-                  th 备注
               tbody
                 tr
-                  td(rowspan='3') 行走部分
+                  td 型号
+                  td.aligncenter  RZTXJ002（带平台）
+                tr
+                  td 性能特点
                   td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
+                    p
+                      | ●内置1300万像素自动对焦背照式摄像头，可录像最高分辨率为： 480p/720p/1080p 30fps，摄像资料可自动智能分类存储
+                    p
+                      | ●内置 WIFI 模块，可通过设备实时传输音视频，存储的图片和视频文件可 在 PC 客户端授权下载及浏览
+                    p
+                      | ●使用寿命可达10万小时以上
+                    p
+                      | ●内置3.7V 4500mAh可充电锂离子电池连续工作状态最多14小时以上
 
                 tr
-                  td Pack 2
-                  td.aligncenter
+                  td 后台管理
 
-                  td.aligncenter
-
-                  td.aligncenter
+                  td.aligncenter  可以开发定制专门版本，可嵌入铁路地图
 
 
                 tr
-                  td Pack 3
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                tr
-                  td Pack 4
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-                    img(src='images/icons/xcross.png', alt='', style='')
-                  td.aligncenter
-
-                tr
-                  td Rates
-                  td.rates $160
-                  td.rates $130
-                  td.rates $70
-                  td.rates $30
-                tr.tr-none-3
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                tr.tr-none-1.tr-none-2
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
+                  td 售后服务
+                  td.aligncenter  保用2年

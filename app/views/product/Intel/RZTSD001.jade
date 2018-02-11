@@ -4,24 +4,45 @@ block intel
   .grid_12.ident-bot-2
     h3 智能硬件
     ul.tab-menu
-      li
-        a(href='/RZTSD001') 隧道检查仪
-      li
-        a(href='/RZTXJ002') GPS摄像手电
-      li
-        a(href='/RZTJK001') 音视频记录仪
-      li
-        a(href='/RZTM91H') M91H布控球
-      li
-        a(href='/RZTT006') 应急指挥箱
+      if pageName === '/RZTSD001'
+        li.active
+          a(href='/RZTSD001') 隧道检查仪
+      else
+        li
+          a(href='/RZTSD001') 隧道检查仪
+      if pageName === '/RZTXJ002'
+        li.active
+          a(href='/RZTXJ002') GPS摄像手电
+      else
+        li
+          a(href='/RZTXJ002') GPS摄像手电
+      if pageName === '/RZTJK001'
+        li.active
+          a(href='/RZTJK001') 音视频记录仪
+      else
+        li
+          a(href='/RZTJK001') 音视频记录仪
+      if pageName === '/RZTM91H'
+        li.active
+          a(href='/RZTM91H') M91H布控球
+      else
+        li
+          a(href='/RZTM91H') M91H布控球
+      if pageName === '/RZTT006'
+        li.active
+          a(href='/RZTT006') 应急指挥箱
+      else
+        li
+          a(href='/RZTT006') 应急指挥箱
+
     .tab-container
       #tab1.tab-content
         .grid_12
           .block-ident-3
             h2 隧道检查仪
             .grid_12.alpha.block-ident-2
-              a.lightbox-image.img-border-bg(href='images/portfolio/product/video/ME90.jpg', data-gal='prettyPhoto[pp_gal_2]')
-              img.img-border.fleft(src='images/portfolio/product/video/ME90.jpg', alt='')
+              a.lightbox-image.img-border-bg(href='images/portfolio/product/intel/RZTSD001.jpg', data-gal='prettyPhoto[pp_gal_2]')
+              img.img-border.fleft(src='images/portfolio/product/intel/RZTSD001.jpg', alt='')
           .grid_12
             h1  产品特点
             p
@@ -63,65 +84,90 @@ block intel
               tbody
                 tr
                   td(rowspan='3') 行走部分
-                  td.aligncenter
+                  td.aligncenter  尺寸
 
-                  td.aligncenter
+                  td.aligncenter  cm
 
-                  td.aligncenter
+                  td.aligncenter  160*80*100
 
-                  td.aligncenter
-
-                tr
-                  td Pack 2
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
+                  td.aligncenter  可定制
 
                 tr
-                  td Pack 3
+                  td.aligncenter  重量
 
-                  td.aligncenter
+                  td.aligncenter  kg
 
-                  td.aligncenter
+                  td.aligncenter  10月20日
 
-                  td.aligncenter
+                  td.aligncenter  可定制
 
-                tr
-                  td Pack 4
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-                    img(src='images/icons/xcross.png', alt='', style='')
-                  td.aligncenter
 
                 tr
-                  td Rates
-                  td.rates $160
-                  td.rates $130
-                  td.rates $70
-                  td.rates $30
-                tr.tr-none-3
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                tr.tr-none-1.tr-none-2
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
+                  td.aligncenter  材料
+
+                  td.aligncenter(colspan='3') 航空合金或304不锈钢
+
+                tr
+                  td(rowspan='6') 照明部分
+                  td.aligncenter(rowspan='2') 工作时间
+
+                  td.aligncenter  h
+
+                  td.aligncenter  强光3--8
+
+                  td.aligncenter(rowspan='2')  可定制
+
+                tr
+                  td.aligncenter  h
+                  td.aligncenter 工作光5-16
+                tr
+                  td.aligncenter  光源寿命
+                  td.aligncenter  h
+                  td.aligncenter  3--10(万)
+                  td.aligncenter  可定制
+                tr
+                  td.aligncenter  功率
+                  td.aligncenter  w
+                  td.aligncenter  2*40/50
+                  td.aligncenter  可选
+                tr
+                  td.aligncenter  重量
+                  td.aligncenter  kg
+                  td.aligncenter  2*3/7.2
+                  td.aligncenter  可选
+                tr
+                  td.aligncenter  电池寿命
+                  td.aligncenter  循环
+                  td.aligncenter  300--1000次
+                  td.aligncenter  可选
+                tr
+                  td(rowspan='8') 摄像系统
+                  td.aligncenter  分辨率
+                  td.aligncenter(colspan='3')  1080P60/50/30/25;720P60/50/30/25;540P30;48 0P30;360P30;兼容U2视频接口
+                tr
+                  td.aligncenter 循环录影
+                  td.aligncenter(colspan='3') 关/10分钟/15分钟/30分钟  (默认为关）
+                tr
+                  td.aligncenter  存储方式
+                  td.aligncenter(colspan='3') 工业三防工控机
+                tr
+                  td.aligncenter  感应器
+                  td.aligncenter(colspan='3') 1200cmos
+                tr
+                  td.aligncenter  镜头角度
+                  td.aligncenter  60
+                  td.aligncenter  视频格式
+                  td.aligncenter  MP4
+                tr
+                  td.aligncenter  是否云台
+                  td.aligncenter  有
+                  td.aligncenter  焦距
+                  td.aligncenter  自动/手动
+                tr
+                  td.aligncenter  图片格式
+                  td.aligncenter  JPG
+                  td.aligncenter  接口
+                  td.aligncenter  USB3.0/USB2.0
+                tr
+                  td.aligncenter  电池
+                  td.aligncenter(colspan='3') 蓄电池供电10小时以上

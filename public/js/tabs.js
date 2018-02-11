@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	//When page loads...
 	$(".tab-content").hide(); //Hide all content
-	$("ul.tab-menu li:first").addClass("active").show(); //Activate first tab
+	//$("ul.tab-menu li:first").addClass("active").show(); //Activate first tab
 	$(".tab-content:first").show(); //Show first tab content
 
 	//On Click Event

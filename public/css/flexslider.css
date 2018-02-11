@@ -16,7 +16,7 @@ html[xmlns] .slides { display: block; }
 
 * html .slides { height: 1%; }
 
-.flexslider { background: none repeat scroll 0 0 #FFFFFF; height: 399px; width: 100%; margin: 30px 0; overflow: hidden; position: relative; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; box-shadow: 0 6px 11px #0A1800; -moz-box-shadow: 0 6px 11px #0A1800; -webkit-box-shadow: 0 6px 11px #0A1800; behavior: url(js/PIE.htc); }
+.flexslider { background: none repeat scroll 0 0 #FFFFFF; height: 100%; width: 100%; margin: 30px 0; overflow: hidden; position: relative; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; box-shadow: 0 6px 11px #0A1800; -moz-box-shadow: 0 6px 11px #0A1800; -webkit-box-shadow: 0 6px 11px #0A1800; behavior: url(js/PIE.htc); }
 
 .flexslider .slides img { max-width: 100%; display: block; }
 

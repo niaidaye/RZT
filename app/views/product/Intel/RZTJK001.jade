@@ -4,16 +4,37 @@ block intel
   .grid_12.ident-bot-2
     h3 智能硬件
     ul.tab-menu
-      li
-        a(href='/RZTSD001') 隧道检查仪
-      li
-        a(href='/RZTXJ002') GPS摄像手电
-      li
-        a(href='/RZTJK001') 音视频记录仪
-      li
-        a(href='/RZTM91H') M91H布控球
-      li
-        a(href='/RZTT006') 应急指挥箱
+      if pageName === '/RZTSD001'
+        li.active
+          a(href='/RZTSD001') 隧道检查仪
+      else
+        li
+          a(href='/RZTSD001') 隧道检查仪
+      if pageName === '/RZTXJ002'
+        li.active
+          a(href='/RZTXJ002') GPS摄像手电
+      else
+        li
+          a(href='/RZTXJ002') GPS摄像手电
+      if pageName === '/RZTJK001'
+        li.active
+          a(href='/RZTJK001') 音视频记录仪
+      else
+        li
+          a(href='/RZTJK001') 音视频记录仪
+      if pageName === '/RZTM91H'
+        li.active
+          a(href='/RZTM91H') M91H布控球
+      else
+        li
+          a(href='/RZTM91H') M91H布控球
+      if pageName === '/RZTT006'
+        li.active
+          a(href='/RZTT006') 应急指挥箱
+      else
+        li
+          a(href='/RZTT006') 应急指挥箱
+
     .tab-container
       #tab1.tab-content
         .grid_12
@@ -75,79 +96,3 @@ block intel
               | 储、转发等；客户端
             p
               | 管理软件实现视频的浏览、对讲监听、地图定位等功能。
-          .grid_12
-            p
-              strong
-                | 性能特点
-            table.table-blue
-              thead
-                tr
-                  th(colspan='2') 内容
-                  th 单位
-                  th 数值
-                  th 备注
-              tbody
-                tr
-                  td(rowspan='3') 行走部分
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                tr
-                  td Pack 2
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-
-                tr
-                  td Pack 3
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-
-                tr
-                  td Pack 4
-                  td.aligncenter
-
-                  td.aligncenter
-
-                  td.aligncenter
-                    img(src='images/icons/xcross.png', alt='', style='')
-                  td.aligncenter
-
-                tr
-                  td Rates
-                  td.rates $160
-                  td.rates $130
-                  td.rates $70
-                  td.rates $30
-                tr.tr-none-3
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy now
-                tr.tr-none-1.tr-none-2
-                  td
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy
-                  td.aligncenter
-                    a.button-white.table-button(href='#') Buy

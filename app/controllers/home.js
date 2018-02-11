@@ -152,12 +152,23 @@ router.get('/RZTT006', (req, res, next) => {
 
 // product>tools
 router.get('/tools', (req, res, next) => {
-  res.render('product/Tools/tools.jade', {
+  res.render('product/Tools/RZTZA001.jade', {
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
-
+router.get('/RZTZA001', (req, res, next) => {
+  res.render('product/Tools/RZTZA001.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/RZTYJ', (req, res, next) => {
+  res.render('product/Tools/RZTYJ.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
 // serve
 router.get('/serve', (req, res, next) => {
   res.render('serve/server_1.jade', {
@@ -165,7 +176,36 @@ router.get('/serve', (req, res, next) => {
     pretty: true,
   });
 });
-
+router.get('/server_1', (req, res, next) => {
+  res.render('serve/server_1.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/server_2', (req, res, next) => {
+  res.render('serve/server_2.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/server_3', (req, res, next) => {
+  res.render('serve/server_3.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/server_4', (req, res, next) => {
+  res.render('serve/server_4.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
+router.get('/server_5', (req, res, next) => {
+  res.render('serve/server_5.jade', {
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
 // about
 router.get('/about', (req, res, next) => {
   res.render('about/main.jade', {

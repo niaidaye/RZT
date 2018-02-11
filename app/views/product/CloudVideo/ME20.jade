@@ -4,18 +4,43 @@ block video
   .grid_12.ident-bot-2
     h3 智能终端
     ul.tab-menu
-      li
-        a(href='/ME90') ME90
-      li
-        a(href='/ME40') ME40
-      li
-        a(href='/ME20') ME20
-      li
-        a(href='/NE60') NE60
-      li
-        a(href='/MAXHUB') MAXHUB
-      li
-        a(href='/PJ') 配件
+      if pageName === '/ME90'
+        li.active
+          a(href='/ME90') ME90
+      else
+        li
+          a(href='/ME90') ME90
+      if pageName === '/ME40'
+        li.active
+          a(href='/ME40') ME40
+      else
+        li
+          a(href='/ME40') ME40
+      if pageName === '/ME20'
+        li.active
+          a(href='/ME20') ME20
+      else
+        li
+          a(href='/ME20') ME20
+      if pageName === '/NE60'
+        li.active
+          a(href='/NE60') NE60
+      else
+        li
+          a(href='/NE60') NE60
+      if pageName === '/MAXHUB'
+        li.active
+          a(href='/MAXHUB') MAXHUB
+      else
+        li
+          a(href='/MAXHUB') MAXHUB
+      if pageName === '/PJ'
+        li.active
+          a(href='/PJ') 配件
+      else
+        li
+          a(href='/PJ') 配件
+
     .tab-container
       #tab3.tab-content
         .grid_12

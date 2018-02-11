@@ -4,24 +4,45 @@ block intel
   .grid_12.ident-bot-2
     h3 智能硬件
     ul.tab-menu
-      li
-        a(href='/RZTSD001') 隧道检查仪
-      li
-        a(href='/RZTXJ002') GPS摄像手电
-      li
-        a(href='/RZTJK001') 音视频记录仪
-      li
-        a(href='/RZTM91H') M91H布控球
-      li
-        a(href='/RZTT006') 应急指挥箱
+      if pageName === '/RZTSD001'
+        li.active
+          a(href='/RZTSD001') 隧道检查仪
+      else
+        li
+          a(href='/RZTSD001') 隧道检查仪
+      if pageName === '/RZTXJ002'
+        li.active
+          a(href='/RZTXJ002') GPS摄像手电
+      else
+        li
+          a(href='/RZTXJ002') GPS摄像手电
+      if pageName === '/RZTJK001'
+        li.active
+          a(href='/RZTJK001') 音视频记录仪
+      else
+        li
+          a(href='/RZTJK001') 音视频记录仪
+      if pageName === '/RZTM91H'
+        li.active
+          a(href='/RZTM91H') M91H布控球
+      else
+        li
+          a(href='/RZTM91H') M91H布控球
+      if pageName === '/RZTT006'
+        li.active
+          a(href='/RZTT006') 应急指挥箱
+      else
+        li
+          a(href='/RZTT006') 应急指挥箱
+
     .tab-container
       #tab1.tab-content
         .grid_12
           .block-ident-3
             h2 M91H布控球
             .grid_12.alpha.block-ident-2
-              a.lightbox-image.img-border-bg(href='images/portfolio/product/video/ME90.jpg', data-gal='prettyPhoto[pp_gal_2]')
-              img.img-border.fleft(src='images/portfolio/product/video/ME90.jpg', alt='')
+              a.lightbox-image.img-border-bg(href='images/portfolio/product/intel/RZTM91H.jpg', data-gal='prettyPhoto[pp_gal_2]')
+              img.img-border.fleft(src='images/portfolio/product/intel/RZTM91H.jpg', alt='')
           .grid_12
             h1  简介
             p
@@ -74,72 +95,55 @@ block intel
           table.table-blue
             thead
               tr
-                th(colspan='2') 内容
-                th 单位
-                th 数值
-                th 备注
+                th 系统
+                th 功能
+                th 说明
             tbody
               tr
-                td(rowspan='3') 行走部分
-                td.aligncenter
+                td(rowspan='7') 录像子系统
+                td.aligncenter  录像通道
 
-                td.aligncenter
-
-                td.aligncenter
-
-                td.aligncenter
+                td.aligncenter  1路通道
 
               tr
-                td Pack 2
-                td.aligncenter
 
-                td.aligncenter
+                td.aligncenter  分辨率
 
-                td.aligncenter
+                td.aligncenter  支持1路1080p分辨率录像
 
 
               tr
-                td Pack 3
+                td.aligncenter  画质
 
-                td.aligncenter
-
-                td.aligncenter
-
-                td.aligncenter
+                td.aligncenter  默认画质 4M bps
 
               tr
-                td Pack 4
-                td.aligncenter
+                td.aligncenter  OSD
 
-                td.aligncenter
-
-                td.aligncenter
-                  img(src='images/icons/xcross.png', alt='', style='')
-                td.aligncenter
+                td.aligncenter  可叠加各种字符，如日期，时间，通道 ID,GPS/BD 等等
 
               tr
-                td Rates
-                td.rates $160
-                td.rates $130
-                td.rates $70
-                td.rates $30
-              tr.tr-none-3
-                td
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy now
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy now
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy now
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy now
-              tr.tr-none-1.tr-none-2
-                td
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy
-                td.aligncenter
-                  a.button-white.table-button(href='#') Buy
+                td.aligncenter  循环录制
+
+                td.aligncenter  支持 SD 卡循环录制，并进行循环删除
+              tr
+                td.aligncenter  录像模式
+
+                td.aligncenter  支持开机录像、手动录像、报警录像、定时录像
+
+              tr
+                td.aligncenter  磁盘覆盖
+
+                td.aligncenter  支持磁盘自动覆盖
+
+              tr
+                td(rowspan='2') 回放子系统
+                td.aligncenter(rowspan='2') 录像搜索
+
+                td.aligncenter  专用软件，可在同一局域网内的电脑上实时预览视频
+              tr
+                td.aligncenter  专用软件，可在同一局域网内的电脑上快速下载录像视频
+              tr
+                td  参数设置
+                td.aligncenter  开关机
+                td.aligncenter  按钮延时关机支持
