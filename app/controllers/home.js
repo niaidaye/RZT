@@ -30,6 +30,12 @@ router.get('/TradeNews-1', (req, res, next) => {
     pretty: true,
   });
 });
+router.get('/TradeNews-2', (req, res, next) => {
+  res.render('news/TradeNews/NewsContent/2.jade',{
+    title: '广州荣知通信息科技有限公司',
+    pretty: true,
+  });
+});
 //
 router.get('/Promotion_1', (req, res, next) => {
   res.render('Promotion/index_1',{
