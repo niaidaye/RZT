@@ -23,16 +23,16 @@ router.get('/news', (req, res, next) => {
   });
 });
 
-// news>Promotion
-router.get('/Promotion_1', (req, res, next) => {
-  res.render('Promotion/index_1',{
+// news>TradeNews
+router.get('/TradeNews-1', (req, res, next) => {
+  res.render('news/TradeNews/NewsContent/1.jade',{
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
 });
 //
-router.get('/Promotion_2', (req, res, next) => {
-  res.render('Promotion/index_2',{
+router.get('/Promotion_1', (req, res, next) => {
+  res.render('Promotion/index_1',{
     title: '广州荣知通信息科技有限公司',
     pretty: true,
   });
