@@ -52,7 +52,7 @@
     .container_12 .grid_9			{ width: 70%; }
     .container_12 .grid_10			{ width: 78%; }
     .container_12 .grid_11			{ width: 84%; }
-    .container_12 .grid_12			{ width: 94%; }
+    .container_12 .grid_12			{ width: 100%; }
 	/* Prefix Extra Space >> 12 Columns */
 	.container_12 .prefix_1 		{padding-left:8%;}
 	.container_12 .prefix_2 		{padding-left:16%;}

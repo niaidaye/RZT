@@ -3,6 +3,37 @@ extends ../index.jade
 block intel
   .grid_12.ident-bot-2
     h3 智能硬件
+    ul.tab-menu
+      if pageName === '/RZTSD001'
+        li.active
+          a(href='/RZTSD001') 隧道检查仪
+      else
+        li
+          a(href='/RZTSD001') 隧道检查仪
+      if pageName === '/RZTXJ002'
+        li.active
+          a(href='/RZTXJ002') GPS摄像手电
+      else
+        li
+          a(href='/RZTXJ002') GPS摄像手电
+      if pageName === '/RZTJK001'
+        li.active
+          a(href='/RZTJK001') 音视频记录仪
+      else
+        li
+          a(href='/RZTJK001') 音视频记录仪
+      if pageName === '/RZTM91H'
+        li.active
+          a(href='/RZTM91H') M91H布控球
+      else
+        li
+          a(href='/RZTM91H') M91H布控球
+      if pageName === '/RZTT006'
+        li.active
+          a(href='/RZTT006') 应急指挥箱
+      else
+        li
+          a(href='/RZTT006') 应急指挥箱
     .tab-container
       #tab1.tab-content
         .grid_12

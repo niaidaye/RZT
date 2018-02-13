@@ -3,6 +3,19 @@ extends ../index.jade
 block tools
   .grid_10.ident-bot-2
     h3 专用工具
+    ul.tab-menu
+      if pageName === '/RZTZA001'
+        li.active
+          a(href="/RZTZA001") 太阳能铁路障碍灯
+      else
+        li
+          a(href="/RZTZA001") 太阳能铁路障碍灯
+      if pageName === '/RZTYJ'
+        li.active
+          a(href="/RZTYJ") 应急夹板双肩包
+      else
+        li
+          a(href="/RZTYJ") 应急夹板双肩包
     .tab-container
       #tab1.tab-content
         .grid_12

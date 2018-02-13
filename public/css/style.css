@@ -109,6 +109,7 @@ h6 {
 h1 a {
   background: url("../images/logo-footer.png") no-repeat scroll 0 0 transparent;
   display: block;
+  margin-top: 10px;
   height: 72px;
   text-indent: -999em;
   width: 105px;
@@ -358,7 +359,6 @@ nav {
 .list-rate li span {
   background: url("../images/patterns/bg-body.jpg") repeat scroll 0 0 #f7f7f7;
   font-size: 12px;
-  line-height: 30px;
   font-family: 'Open Sans', Arial, Tahoma, sans-serif;
   font-weight: bold;
   float: right;
@@ -367,7 +367,6 @@ nav {
 .list-rate li a {
   background: url("../images/patterns/bg-body.jpg") repeat scroll 0 0 #f7f7f7;
   font-size: 12px;
-  line-height: 30px;
   font-family: 'Open Sans', Arial, Tahoma, sans-serif;
   font-weight: bold;
 }
@@ -1274,7 +1273,7 @@ License URL: http//creativecommons.org/licenses/by/3.0/
 /* reset */
 .wrap{
   margin:0 auto;
-  width:80%;
+  width:85%;
 }
 .header_bg{
   background: #08032f;

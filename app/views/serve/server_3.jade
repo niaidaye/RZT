@@ -3,6 +3,37 @@ extends index.jade
 block server
   .grid_10
     h3 服务中心
+    ul.tab-menu
+      if pageName === '/server_1'
+        li.active
+          a(href='/server_1') 会议室集成方案定制
+      else
+        li
+          a(href='/server_1') 会议室集成方案定制
+      if pageName === '/server_2'
+        li.active
+          a(href='/server_2') 远程职教系统方案定制
+      else
+        li
+          a(href='/server_2') 远程职教系统方案定制
+      if pageName === '/server_3'
+        li.active
+          a(href='/server_3') 远程应急指挥系统方案定制
+      else
+        li
+          a(href='/server_3') 远程应急指挥系统方案定制
+      if pageName === '/server_4'
+        li.active
+          a(href='/server_4') 综合音视频服务
+      else
+        li
+          a(href='/server_4') 综合音视频服务
+      if pageName === '/server_5'
+        li.active
+          a(href='/server_5') 云服务定制
+      else
+        li
+          a(href='/server_5') 云服务定制
     .tab-container
       #tab1.tab-content
         .grid_12
